@@ -1,4 +1,5 @@
 /*
+
 +-----+-----+---------+------+---+---Pi 4---+---+------+---------+-----+-----+
 | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
 +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
@@ -22,7 +23,7 @@
 | 19  | 24  |  GPIO24 | OUT  | 0 | 35 | 36 | 0 | OUT  | GPIO27  | 27  | 16  |
 | 26  | 25  |  GPIO25 | OUT  | 0 | 37 | 38 | 0 | OUT  | GPIO28  | 28  | 20  |
 |     |     |      0v |      |   | 39 | 40 | 0 | OUT  | GPIO29  | 29  | 21  |
-+-----+-----+---------+------+---+----+----+---+------+--------+------+-----+
++-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
 
 
 | Pin | Name  | Function                  | Comment                                              |
@@ -53,8 +54,8 @@
 | 24  | GPIO 8 | CE0 (SPI)                | SPI Chip Enable 0                                    |
 | 25  | GND   | Ground                    | Ground                                               |
 | 26  | GPIO 7 | CE1 (SPI)                | SPI Chip Enable 1                                    |
-| 27  | GPIO 0 | SDA0 (I2C)               | I2C Data Line for I2C communication (ID EEPROM)      |
-| 28  | GPIO 1 | SCL0 (I2C)               | I2C Clock Line for I2C communication (ID EEPROM)     |
+| 27  | GPIO 0 | SDA0 (I2C)               | I2C Data Line for I2C communication (ID EEPROM)      |   DO NOT USE
+| 28  | GPIO 1 | SCL0 (I2C)               | I2C Clock Line for I2C communication (ID EEPROM)     |   DO NOT USE
 | 29  | GPIO 5 | GPIO General Purpose     | General purpose I/O                                  |
 | 30  | GND   | Ground                    | Ground                                               |
 | 31  | GPIO 6 | GPIO General Purpose     | General purpose I/O                                  |
