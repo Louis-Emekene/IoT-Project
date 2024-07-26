@@ -39,7 +39,7 @@ def display_weather():
             lcd.write_string(f"{location}\n{temp}C {weather_desc}")
             time.sleep(5)
 
-            # Display time
+            # Display time                                                                                      
             lcd.clear()
             lcd.write_string(f"Time: {current_time}")
             time.sleep(1)
